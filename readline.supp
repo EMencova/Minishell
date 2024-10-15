@@ -1,0 +1,16 @@
+{
+   Memcheck:Leak
+   fun:malloc
+   fun:calloc
+   fun:realloc
+   fun:xmalloc
+   fun:rl_make_bare_keymap
+   fun:rl_generic_bind
+   fun:rl_bind_keyseq_if_unbound_in_map
+   fun:rl_initialize
+   fun:readline
+   free:none
+   leak-kinds:definite,indirect,still-reachable
+   by-stackid:1
+   in:/usr/lib/x86_64-linux-gnu/libreadline.so.8.1
+}
